@@ -1,0 +1,4 @@
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\arka\.android\debug.keystore | E:\Work\openssl\bin\openssl sha1 -binary | E:\Work\openssl\bin\openssl base64\
+
+
+ionic plugin add cordova-plugin-facebook4 --variable APP_ID="1890871464525224" --variable APP_NAME="demo login"
